@@ -1,18 +1,32 @@
 const TelegramAPI = require('node-telegram-bot-api');
 const token = '7309883575:AAFFH2NEPLoU7GRZV6Ltm6oe8tPfBJJ6mxc';
-
+const adminPanel = '-4572607180'
 const bot = new TelegramAPI(token, { polling: true });
 
-const mainMenu = {
-    reply_markup: {
-        keyboard: [
-            [{ text: '🔔•Розклад дзвінків•🔔' }, { text: '📄•Розклад пар•📄' }],
-            [{ text: '📚•Бібліотека знань•📚' }],
-            [{ text: '💻•Feedback•💻'}]
-        ],
-        resize_keyboard: true
-    }
-};
+if (adminPanel == -4572607180){
+    const adminChatPanel = {
+            reply_markup: {
+                keyboard: [
+                    [{ text: '🔔•Розклад дзвінків•🔔' }, { text: '📄•Розклад пар•📄' }],
+                    [{ text: '📚•Бібліотека знань•📚' }],
+                    [{ text: '💻•Feedback•💻'}, { text: '🕹️•Настройка•🕹️' }, { text: '📄•Домашка•📄' }]
+                ],
+                resize_keyboard: true
+            }
+        };
+}
+else{
+    const mainMenu = {
+            reply_markup: {
+                keyboard: [
+                    [{ text: '🔔•Розклад дзвінків•🔔' }, { text: '📄•Розклад пар•📄' }],
+                    [{ text: '📚•Бібліотека знань•📚' }],
+                    [{ text: '💻•Feedback•💻'}]
+                ],
+                resize_keyboard: true
+            }
+        };
+}
 
 const classMenu = {
     reply_markup: {
@@ -167,7 +181,7 @@ const information = {
 
 let selectedClass = '';
 let selectedCourse = '';
-
+l
 bot.on('message', (msg) => {
     const chatId = msg.chat.id;
     const text = msg.text;
