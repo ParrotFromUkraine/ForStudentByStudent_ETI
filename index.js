@@ -1,14 +1,14 @@
 const TelegramAPI = require('node-telegram-bot-api');
 const token = '7309883575:AAFFH2NEPLoU7GRZV6Ltm6oe8tPfBJJ6mxc';
-const bot = new TelegramAPI(token, { polling: true });
 
+const bot = new TelegramAPI(token, { polling: true });
 
 const mainMenu = {
     reply_markup: {
         keyboard: [
             [{ text: '🔔•Розклад дзвінків•🔔' }, { text: '📄•Розклад пар•📄' }],
             [{ text: '📚•Бібліотека знань•📚' }],
-            [{ text: '💻•Feedback•💻'}]
+            [{ text: '💻•Feedback•💻'}, { text: 'Домашка'}]
         ],
         resize_keyboard: true
     }
@@ -167,7 +167,7 @@ const information = {
 
 let selectedClass = '';
 let selectedCourse = '';
-l
+
 bot.on('message', (msg) => {
     const chatId = msg.chat.id;
     const text = msg.text;
@@ -230,6 +230,3 @@ bot.on('message', (msg) => {
     }
 });
 
-bot.on('polling_error', (error) => {
-    console.log(`Polling error: ${error.code}`, error);
-});
