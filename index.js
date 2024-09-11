@@ -4,7 +4,7 @@ const adminPanel = '-4572607180'
 const bot = new TelegramAPI(token, { polling: true });
 
 
-let mainMenu = {
+const mainMenu = {
     reply_markup: {
         keyboard: [
             [{ text: '🔔•Розклад дзвінків•🔔' }, { text: '📄•Розклад пар•📄' }],
@@ -14,18 +14,6 @@ let mainMenu = {
         resize_keyboard: true
     }
 };
-if(chatId == -4572607180){
-mainMenu = {
-    reply_markup: {
-        keyboard: [
-            [{ text: '🔔•Розклад дзвінків•🔔' }, { text: '📄•Розклад пар•📄' }],
-            [{ text: '📚•Бібліотека знань•📚' }],
-            [{ text: '💻•Feedback•💻'}, { text: '📄•Домашка•📄'}]
-        ],
-        resize_keyboard: true
-    }
-};
-}
 
 const classMenu = {
     reply_markup: {
