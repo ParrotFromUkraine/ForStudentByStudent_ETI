@@ -107,7 +107,7 @@ const information = {
         'Інформатика': 'Полезная інформация по Інформатиці для Кнк-24...',
         'Біологія': 'Полезная інформация по Біології для Кнк-24\n\nClassRoom - https://classroom.google.com/c/NzExNTk4NDU5ODEx?cjc=wxs6g2a',
         'Українська література': 'Полезная інформация по Українській літературі для Кнк-24\n\nКайдашева Сім\'я - https://www.ukrlib.com.ua/books/printit.php?tid=907\n\nClassRoom - https://classroom.google.com/c/NzEyNDkzOTA3ODg3?cjc=kdho537',
-        'Іноземна мова': 'Полезная інформация по Іноземній мові для Кнк-24...',
+        'Іноземна мова': 'Полезная інформация по Іноземній мові для Кнк-24\n\n https://test-english.com \n https://123moviesfree.net \n https://tinyzone.org \n https://englishingeneral.com \n https://agendaweb.org',
         'Захист України': 'Полезная інформация по Захисту України для Кнк-24...',
         'Кураторська година (Можлива)': 'Полезная інформация по Кураторській годині для Кнк-24...',
         'Програмування JS': 'Полезная інформация по Програмування JS для Кнк-24\n\nClassroom - https://classroom.google.com/c/NzExODExNjcyODI5?cjc=2i6iuwz'
