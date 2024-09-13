@@ -17,8 +17,8 @@ const mainMenu = {
 const classMenu = {
     reply_markup: {
         keyboard: [
-            [{ text: 'Кнк-24' }, { text: 'Фнк-24' }],
-            [{ text: 'Кнк-23' }, { text: 'Фнк-23' }],
+            [{ text: '💻Кнк-24' }, { text: '💳Фнк-24' }],
+            [{ text: '💻Кнк-23' }, { text: '💳Фнк-23' }],
             [{ text: 'Назад' }]
         ],
         resize_keyboard: true
@@ -38,8 +38,8 @@ const daysMenu = {
 const libriaryClass = {
     reply_markup: {
         keyboard: [
-            [{ text: 'Кнк24' }, { text: 'Фнк24' }],
-            [{ text: 'Кнк23' }, { text: 'Фнк23' }],
+            [{ text: '💻Кнк24' }, { text: '💳Фнк24' }],
+            [{ text: '💻Кнк23' }, { text: '💳Фнк23' }],
             [{ text: 'Назад' }]
         ],
         resize_keyboard: true
@@ -99,7 +99,7 @@ const information = {
         'Основи Підприемства': 'Полезная інформация по Основам Підприемства для Кнк-24\n\nClassRoom - https://classroom.google.com/c/NTkzMDk3NDMzODAz?cjc=vhcnkjw',
         'Фізична культура': 'Полезная інформация по Фізичній культурі для Кнк-24...',
         'Зарубижна Література': 'Полезная інформация по Зарубіжній Літературі для Кнк-24...',
-        'Фізика': 'Полезная інформация по Фізиці для Кнк-24...',
+        'Фізика': 'Полезная інформация по Фізиці для Кнк-24 \n\nGoogle Form - https://www.facebook.com/share/p/a8JGEiLy1tE7k7z1/?mibextid=K35XfP',
         'Українська мова': 'Полезная інформация по Українській мові для Кнк-24\n\n Підручник - https://pidruchnyk.com.ua/1233-ukrainska-mova-10-klas-shevchuk.html',
         'Навчальна практика': 'Полезная інформация по Навчальній практиці для Кнк-24...',
         'Математика': 'Полезная інформация по Математиці для Кнк-24\n\nПідручник - https://pidruchnyk.com.ua/1154-matematyka-10-klas-ister.html',
@@ -107,7 +107,7 @@ const information = {
         'Інформатика': 'Полезная інформация по Інформатиці для Кнк-24...',
         'Біологія': 'Полезная інформация по Біології для Кнк-24\n\nClassRoom - https://classroom.google.com/c/NzExNTk4NDU5ODEx?cjc=wxs6g2a',
         'Українська література': 'Полезная інформация по Українській літературі для Кнк-24\n\nКайдашева Сім\'я - https://www.ukrlib.com.ua/books/printit.php?tid=907\n\nClassRoom - https://classroom.google.com/c/NzEyNDkzOTA3ODg3?cjc=kdho537',
-        'Іноземна мова': 'Полезная інформация по Іноземній мові для Кнк-24\n\n https://test-english.com \n https://123moviesfree.net \n https://tinyzone.org \n https://englishingeneral.com \n https://agendaweb.org',
+        'Іноземна мова': 'Полезная інформация по Іноземній мові для Кнк-24...',
         'Захист України': 'Полезная інформация по Захисту України для Кнк-24...',
         'Кураторська година (Можлива)': 'Полезная інформация по Кураторській годині для Кнк-24...',
         'Програмування JS': 'Полезная інформация по Програмування JS для Кнк-24\n\nClassroom - https://classroom.google.com/c/NzExODExNjcyODI5?cjc=2i6iuwz'
@@ -117,7 +117,7 @@ const information = {
         'Основи Підприемства': 'Полезная информация по Основам Підприемства для Кнк-24...',
         'Фізична культура': 'Полезная информация по Фізичній культурі для Кнк-24...',
         'Зарубижна Література': 'Полезная информация по Зарубіжній Літературі для Кнк-24...',
-        'Фізика': 'Полезная информация по Фізиці для Кнк-24',
+        'Фізика': 'Полезная информация по Фізиці для Кнк-24 \n\nGoogle Form - https://www.facebook.com/share/p/a8JGEiLy1tE7k7z1/?mibextid=K35XfP',
         'Українська мова': 'Полезная информация по Українській мові для Кнк-24\n\nПідручник - https://pidruchnyk.com.ua/1233-ukrainska-mova-10-klas-shevchuk.html',
         'Навчальна практика': 'Полезная информация по Навчальній практиці для Кнк-24',
         'Математика': 'Полезная информация по Математиці для Кнк-24...',
