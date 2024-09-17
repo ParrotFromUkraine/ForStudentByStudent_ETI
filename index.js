@@ -225,7 +225,7 @@ bot.on('message', (msg) => {
             selectedClass = '';
             bot.sendMessage(chatId, 'Оберіть клас:', classMenu);
         } else {
-            bot.sendMessage(chatId, 'Вы вернулись назад', mainMenu);
+            bot.sendMessage(chatId, 'Ви вернулись назад', mainMenu);
         }
     }
 });
