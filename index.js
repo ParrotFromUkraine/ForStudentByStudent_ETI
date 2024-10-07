@@ -177,7 +177,9 @@ bot.on('message', (msg) => {
         selectedCourse = '';
         bot.sendMessage(chatId, 'Вас приветствует бот KolageETI', mainMenu);
     }
-
+    else if (text === '@ColageSupportBot Я сильно хочу випіть піва. Поделішся если у тебя есть???'){
+        bot.sendStiker(chatId, 'https://tlgrm.ru/_/stickers/765/cd8/765cd855-50a5-397d-ab67-ca72db0488b6/2.webp', mainMenu)
+    }
     else if (text === '🔔•Розклад дзвінків•🔔') {
         bot.sendMessage(chatId, 'Розклад дзвінків:\n1. Пара 8:20 - 9:40\n2. Пара 9:50 - 11:10\n3. Пара 11:40 - 13:00\n4. Пара 13:10 - 14:30\n5. Пара 14:40 - 16:00', mainMenu);
     }
