@@ -223,7 +223,7 @@ bot.on('message', (msg) => {
             bot.sendMessage(chatId, 'Оберіть курс:', classMenu);
         } else if (selectedClass) {
             selectedClass = '';
-            bot.sendMessage(chatId, 'Оберіть клас:', classMenu);
+            bot.sendMessage(chatId, 'Оберіть курс:', classMenu);
         } else {
             bot.sendMessage(chatId, 'Ви вернулись назад', mainMenu);
         }
