@@ -1,4 +1,4 @@
-``const TelegramAPI = require('node-telegram-bot-api');
+const TelegramAPI = require('node-telegram-bot-api');
 const token = '7309883575:AAFFH2NEPLoU7GRZV6Ltm6oe8tPfBJJ6mxc';
 
 const bot = new TelegramAPI(token, { polling: true });
@@ -177,22 +177,17 @@ bot.on('message', (msg) => {
         selectedCourse = '';
         bot.sendMessage(chatId, 'Вас приветствует бот KolageETI', mainMenu);
     }
-        console.log ('kegla')
+            
     else if (text === '🔔•Розклад дзвінків•🔔') {
         bot.sendMessage(chatId, 'Розклад дзвінків:\n1. Пара 8:20 - 9:40\n2. Пара 9:50 - 11:10\n3. Пара 11:40 - 13:00\n4. Пара 13:10 - 14:30\n5. Пара 14:40 - 16:00', mainMenu);
     }
-
-    else if (text === 'beer') {
-            bot.sendMessage(chatId, 'Піво', mainMenu);
-        }
-
+            
     else if (text === '📄•Розклад пар•📄') {
         bot.sendMessage(chatId, 'Оберіть клас:', classMenu);
     }
 
     else if (text === '💻•Feedback•💻') {
         bot.sendMessage(chatId,'Вельме дякуємо: Олександр Володимирович\nПоки немає адміну бота. Ви можете написати:\n гл.Програмісту - @SnrKesha\n тех.Програміст - @IxstsxuI')
-                    console.log('Кегля лучший попугай')
                 if (text === '@ColageSupportBot Я сильно хочу випіть піва. Поделішся если у тебя есть???'){
                 bot.sendStiker(chatId, 'https://tlgrm.ru/_/stickers/765/cd8/765cd855-50a5-397d-ab67-ca72db0488b6/2.webp', mainMenu)
             }
