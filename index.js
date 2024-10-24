@@ -1,4 +1,4 @@
-const TelegramAPI = require('node-telegram-bot-api');
+``const TelegramAPI = require('node-telegram-bot-api');
 const token = '7309883575:AAFFH2NEPLoU7GRZV6Ltm6oe8tPfBJJ6mxc';
 
 const bot = new TelegramAPI(token, { polling: true });
@@ -192,7 +192,8 @@ bot.on('message', (msg) => {
 
     else if (text === '💻•Feedback•💻') {
         bot.sendMessage(chatId,'Вельме дякуємо: Олександр Володимирович\nПоки немає адміну бота. Ви можете написати:\n гл.Програмісту - @SnrKesha\n тех.Програміст - @IxstsxuI')
-            if (text === '@ColageSupportBot Я сильно хочу випіть піва. Поделішся если у тебя есть???'){
+                    console.log('Кегля лучший попугай')
+                if (text === '@ColageSupportBot Я сильно хочу випіть піва. Поделішся если у тебя есть???'){
                 bot.sendStiker(chatId, 'https://tlgrm.ru/_/stickers/765/cd8/765cd855-50a5-397d-ab67-ca72db0488b6/2.webp', mainMenu)
             }
     }
