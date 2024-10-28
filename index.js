@@ -1,3 +1,20 @@
+const { MongoClient } = require('mongodb');
+const uri = "mongodb+srv://zivotovdanilka:eeZvOm2Nn9SBHJwg@collagebot.dtml8.mongodb.net/?retryWrites=true&w=majority";
+const client = new MongoClient(uri);
+
+async function run() {
+    try {
+        await client.connect();
+        console.log("Connected to MongoDB Atlas");
+    } finally {
+        await client.close();
+    }
+}
+
+run().catch(console.dir);
+
+
+
 const TelegramAPI = require('node-telegram-bot-api');
 const token = '7309883575:AAFFH2NEPLoU7GRZV6Ltm6oe8tPfBJJ6mxc';
 
