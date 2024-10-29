@@ -99,7 +99,7 @@ const information = {
         'Основи підприємництва': 'Полезная інформация по Основи підприємництва для Кнк-24\n\nClassRoom - https://classroom.google.com/c/NTkzMDk3NDMzODAz?cjc=vhcnkjw',
         'Фізична культура': 'Полезная інформация по Фізичній культурі для Кнк-24...',
         'Зарубижна Література': 'Полезная інформация по Зарубіжній Літературі для Кнк-24...',
-        'Фізика': 'Полезная інформация по Фізиці для Кнк-24 \n\nGoogle Form - https://www.facebook.com/share/p/a8JGEiLy1tE7k7z1/?mibextid=K35XfP \nTelegram - https://t.me/+RdiVaNRgaZViZGFi',
+        'Фізика': 'Полезная інформация по Фізиці для Кнк-24 \n\nGoogle Form - https://www.facebook.com/share/p/a8JGEiLy1tE7k7z1/?mibextid=K35XfP \nTelegram - https://t.me/+RdiVaNRgaZViZGFi\n Підручник - https://vshkole.com/10-klass/uchebniki/fizika/vg-baryahtar-so-dovgij-fya-bozhinova-2018-riven-standartu/stranitsa-52',
         'Українська мова': 'Полезная інформация по Українській мові для Кнк-24\n\n Підручник - https://pidruchnyk.com.ua/1233-ukrainska-mova-10-klas-shevchuk.html',
         'Навчальна практика': 'Полезная інформация по Навчальній практиці для Кнк-24...',
         'Математика': 'Полезная інформация по Математиці для Кнк-24\n\nПідручник - https://pidruchnyk.com.ua/1154-matematyka-10-klas-ister.html',
