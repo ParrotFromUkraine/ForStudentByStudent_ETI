@@ -102,7 +102,7 @@ const information = {
         'Фізика': 'Полезная інформация по Фізиці для Кнк-24 \n\nGoogle Form - https://www.facebook.com/share/p/a8JGEiLy1tE7k7z1/?mibextid=K35XfP \nTelegram - https://t.me/+RdiVaNRgaZViZGFi\n Підручник - https://vshkole.com/10-klass/uchebniki/fizika/vg-baryahtar-so-dovgij-fya-bozhinova-2018-riven-standartu/stranitsa-52',
         'Українська мова': 'Полезная інформация по Українській мові для Кнк-24\n\n Підручник - https://pidruchnyk.com.ua/1233-ukrainska-mova-10-klas-shevchuk.html',
         'Навчальна практика': 'Полезная інформация по Навчальній практиці для Кнк-24...',
-        'Математика': 'Полезная інформация по Математиці для Кнк-24\n\nПідручник - https://pidruchnyk.com.ua/1154-matematyka-10-klas-ister.html',
+        'Математика': 'Полезная інформация по Математиці для Кнк-24\n\nПідручник - https://pidruchnyk.com.ua/1154-matematyka-10-klas-ister.html \n Classroom - https://classroom.google.com/c/NjIyMzY5MDIzODU1?cjc=ibejnsk',
         'Хімія': 'Полезная інформация по Хімії для Кнк-24',
         'Інформатика': 'Полезная інформация по Інформатиці для Кнк-24...',
         'Біологія': 'Полезная інформация по Біології для Кнк-24\n\nClassRoom - https://classroom.google.com/c/NzExNTk4NDU5ODEx?cjc=wxs6g2a',
