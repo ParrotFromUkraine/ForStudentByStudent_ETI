@@ -26,7 +26,7 @@ mongoose
 	.connect(process.env.MONGO_URI, {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
-	})
+	})	
 	.then(() => console.log('MongoDB connected'))
 	.catch(err => console.error('MongoDB connection error:', err))
 
@@ -64,3 +64,4 @@ setInterval(monitorTask, 60000) // Пинг каждую минуту
 app.listen(PORT, () => {
 	console.log(`Server is running on port ${PORT}`)
 })
+						 
